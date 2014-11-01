@@ -1,0 +1,72 @@
+[00]. abc
+[01]. aac
+[02]. acc
+[03]. zzzaxcqqq
+[04]. abdabec
+
+[05]. foo
+[06]. bar
+[07]. foo bar baz quux
+[08]. anything containing them
+
+[09]. catdogcat
+[10]. catcatdogdog
+[11]. dogdogcatdogdog
+[12]. catcatcatdogdogdog
+
+[13]. acatdogdogcats
+[14]. ifacatdogdogs
+[15]. acatdogdogsme
+
+[16]. I like Scheme
+[17]. I really like Scheme
+[18]. I really really really like Scheme
+[19]. I really really don't really like Scheme
+[20]. I really really really really really like Scheme
+[21]. I really truly really like Scheme
+[22]. I really really really really really really really really really like Scheme
+
+----- Literal parentheses, brackets and braces -----
+()--[]
+()--()
+[]--[]
+[\]--[\]
+{
+{{
+}}
+}
+ccccccc
+ccccc
+{1,2} and {1,2}
+{1,2}{1,2} and {1,2}{1,2}
+{1,2} and {1,2}{1,2}
+({[])}
+(^^ a truly disturbing thought)
+CHARFROM a
+CHARFROM ]
+CHARFROM a]
+CHARFROM ^
+CHARFROM -
+CHARFROM b
+
+----- BOL, EOL, literal dollar signs and carets, pipes -----
+^$
+e^$
+^$e
+$50
+50$
+-_^
+^_^;
+e|e|e
+
+
+----- Backreferences, complex expressions -----
+]bhahaHAHAhaha]b
+]^hahaHAHAhaha]^
+abhahaHAHAhahaac
+
+I'm (I am) going to run to the bathroom.  I need to use the bath.  I'm (I am) going to run to the bathroom.
+I'm (I am) going to urinate in the coatroom.  I need to use the coat.  I'm (I am) going to urinate in the coatroom.
+I'm (I am) going to urinate in the coatroom.  I need to use the coat.  I'm (I am) going to run to the coatroom.
+I'm (I am) going to urinate in the broom.  I need to use the b.  I'm (I am) going to urinate in the broom.
+I'm (I am) going to run to the room.  I need to use the .  I'm (I am) going to run to the room.
