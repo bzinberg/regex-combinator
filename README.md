@@ -9,8 +9,9 @@ Why
 ---
 The need for a clean combinator language arises because regular expression
 syntax is so bad that writing down a regular expression (let alone checking
-that a regular expression has the intended meaning) takes much more time than
-expressing the desired matcher in plain English.  As Gerry Sussman explains:
+that a regular expression has the intended meaning) takes much more effort than
+expressing the desired matcher in plain English.  As Prof. Gerald Sussman
+explains:
 
 > Regular expressions are ubiquitous.  On the surface, regular
 > expressions look like a combinator language, because expression
@@ -33,7 +34,7 @@ This matcher supports all features of POSIX regular expressions, including
 backreferences (implemented by labels rather than asking you to magically keep
 track of parenthesis counts).
 
-For a detailed specification, as well as some entertaining prose by Gerry
+For a detailed specification, as well as some entertaining prose by Gerald
 Sussman, see `ps.txt`.
 
 Where
